@@ -1,0 +1,58 @@
+0 verbose cli [
+0 verbose cli   '/Users/lelai/.nvm/versions/node/v16.13.2/bin/node',
+0 verbose cli   '/Users/lelai/.nvm/versions/node/v16.13.2/bin/npm',
+0 verbose cli   'install',
+0 verbose cli   '--save-dev',
+0 verbose cli   '-E',
+0 verbose cli   'parallelshell@3.0.1'
+0 verbose cli ]
+1 info using npm@8.1.2
+2 info using node@v16.13.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/Users/lelai/.nvm/versions/node/v16.13.2/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:/Users/lelai/Desktop/NucampFolder/2-Bootstrap/nucampsite/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/Users/lelai/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/Users/lelai/.nvm/versions/node/v16.13.2/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 0ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 0ms
+18 timing config:load Completed in 7ms
+19 timing npm:load:configload Completed in 7ms
+20 timing npm:load:setTitle Completed in 16ms
+21 timing npm:load:setupLog Completed in 1ms
+22 timing config:load:flatten Completed in 2ms
+23 timing npm:load:cleanupLog Completed in 2ms
+24 timing npm:load:configScope Completed in 0ms
+25 timing npm:load:projectScope Completed in 1ms
+26 timing npm:load Completed in 32ms
+27 timing arborist:ctor Completed in 4ms
+28 timing idealTree Completed in 2ms
+29 timing command:install Completed in 19ms
+30 verbose stack JSONParseError: Unexpected string in JSON at position 329 while parsing '{
+30 verbose stack   "name": "nucampsite",
+30 verbose stack   "version": "'
+30 verbose stack     at /Users/lelai/.nvm/versions/node/v16.13.2/lib/node_modules/npm/node_modules/read-package-json-fast/index.js:11:61
+30 verbose stack     at async Arborist.buildIdealTree (/Users/lelai/.nvm/versions/node/v16.13.2/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/build-ideal-tree.js:213:7)
+30 verbose stack     at async Promise.all (index 1)
+30 verbose stack     at async Arborist.reify (/Users/lelai/.nvm/versions/node/v16.13.2/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:149:5)
+30 verbose stack     at async Install.install (/Users/lelai/.nvm/versions/node/v16.13.2/lib/node_modules/npm/lib/install.js:170:5)
+31 verbose cwd /Users/lelai/Desktop/NucampFolder/2-Bootstrap/nucampsite
+32 verbose Darwin 21.2.0
+33 verbose argv "/Users/lelai/.nvm/versions/node/v16.13.2/bin/node" "/Users/lelai/.nvm/versions/node/v16.13.2/bin/npm" "install" "--save-dev" "-E" "parallelshell@3.0.1"
+34 verbose node v16.13.2
+35 verbose npm  v8.1.2
+36 error code EJSONPARSE
+37 error path /Users/lelai/Desktop/NucampFolder/2-Bootstrap/nucampsite/package.json
+38 error JSON.parse Unexpected string in JSON at position 329 while parsing '{
+38 error JSON.parse   "name": "nucampsite",
+38 error JSON.parse   "version": "'
+39 error JSON.parse Failed to parse JSON data.
+39 error JSON.parse Note: package.json must be actual JSON, not just JavaScript.
+40 verbose exit 1

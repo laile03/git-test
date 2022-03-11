@@ -1,0 +1,69 @@
+2020-08-13 17:50:11.393-0700 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-L, -U, HTTPS://SERVICE.PROCTORCAM.COM/LAUNCH_CONFIRMATION?SESSION_ID=5157369, -F, FILE PATH NOT LOGGED, -LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE]", url="https://service.proctorcam.com/launch_confirmation?session_id=5157369", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", validArgs=true
+2020-08-13 17:50:11.619-0700 [BROWSERLOCKOSX] [INFO] Starting Event Listener
+2020-08-13 17:50:11.683-0700 [BROWSERLOCKOSX] [INFO] Pausing processes: usernotificationcenter, nowplayingtouchui, spotify, photos, preview, calendar, messages, powerchime, nbagent, osduihelper, coreautha, core sync, adobe desktop service, adobeipcbroker, creative cloud, finder, mail, spotlight, softwareupdatenotificationmanager, wi-fi, notification center, calendaragent, 
+2020-08-13 17:50:11.685-0700 [BROWSERLOCKOSX] [INFO] Executing termination step: processTerminator=N
+2020-08-13 17:50:11.686-0700 [BROWSERLOCKOSX] [INFO] Terminate processes found: processes="[google chrome]"
+2020-08-13 17:50:32.831-0700 [BROWSERLOCKOSX] [INFO] Killing processes: google chrome, 
+2020-08-13 17:50:33.967-0700 [BROWSERLOCKOSX] [INFO] Hide dock
+2020-08-13 17:50:33.984-0700 [BROWSERLOCKOSX] [INFO] Starting input handler
+2020-08-13 17:50:34.005-0700 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? 1
+2020-08-13 17:50:34.014-0700 [BROWSERLOCKOSX] [INFO] Setting 100 HotKeys to enabled-status: 0
+2020-08-13 17:50:34.170-0700 [BROWSERLOCKOSX] [INFO] Hot corner settings found at startup: { "wvous-bl-corner"=0; "wvous-br-corner"=0; "wvous-tl-corner"=0; "wvous-tr-corner"=0; }
+2020-08-13 17:50:34.227-0700 [BROWSERLOCKOSX] [INFO] Notification center disabled
+2020-08-13 17:50:34.228-0700 [BROWSERLOCKOSX] [INFO] Requested screen count from system: maxDisplays=1
+2020-08-13 17:50:34.228-0700 [BROWSERLOCKOSX] [INFO] Showing main display: mainDisplayId=69733632
+2020-08-13 17:50:34.282-0700 [BROWSERLOCKOSX] [INFO] Pausing processes: accountprofileremoteviewservice (system preferences), system preferences, dock, 
+2020-08-13 17:50:34.315-0700 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2020-08-13 17:50:41.431-0700 [BROWSERLOCKOSX] [INFO] Pausing processes: stocks (notification center), weather (notification center), notification center, universalaccessauthwarn, 
+2020-08-13 17:50:45.239-0700 [BROWSERLOCKOSX] [INFO] Loading new url=https://service.proctorcam.com/system_tests/landing_page?session_id=5157369&token=1907847350
+2020-08-13 17:50:45.240-0700 [BROWSERLOCKOSX] [INFO] Check for scoreReport finished
+2020-08-13 17:50:45.240-0700 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2020-08-13 17:50:51.493-0700 [BROWSERLOCKOSX] [INFO] Loading new url=https://testdelivery-st-prd-2.pearsonvue.com/Minerva/startDelivery?sessionUUID=96e501b4-eeea-4911-a8f0-c59474feaa72
+2020-08-13 17:50:51.494-0700 [BROWSERLOCKOSX] [INFO] OnURIChange newUri="https://testdelivery-st-prd-2.pearsonvue.com/Minerva/startDelivery?sessionUUID=96e501b4-eeea-4911-a8f0-c59474feaa72"
+2020-08-13 17:50:51.494-0700 [BROWSERLOCKOSX] [INFO] Check for scoreReport finished
+2020-08-13 17:50:51.494-0700 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2020-08-13 17:51:10.213-0700 [BROWSERLOCKOSX] [INFO] Loading new url=https://service.proctorcam.com/system_tests/athena_complete?#session_id=5157369
+2020-08-13 17:51:10.213-0700 [BROWSERLOCKOSX] [INFO] OnURIChange newUri="https://service.proctorcam.com/system_tests/athena_complete?#session_id=5157369"
+2020-08-13 17:51:10.214-0700 [BROWSERLOCKOSX] [INFO] Check for scoreReport finished
+2020-08-13 17:51:10.215-0700 [BROWSERLOCKOSX] [INFO] Browser loading finished
+2020-08-13 17:51:11.394-0700 [BROWSERLOCKOSX] [INFO] System information: name=Mac OS X, version=10.15.6, arch=x86_64
+2020-08-13 17:51:11.395-0700 [BROWSERLOCKOSX] [INFO] Stats (memory in kB): processors=4, totalMemory=131072.0, freeMemory=50591.234375, memoryUsage=80480.0
+2020-08-13 17:51:11.459-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Pearson Vue Browser Lock", cpuPercent=30.6
+2020-08-13 17:51:11.459-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="browsercore-helper", cpuPercent=10.3
+2020-08-13 17:51:11.459-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="WindowServer", cpuPercent=9.2
+2020-08-13 17:51:11.460-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="hidd", cpuPercent=6.5
+2020-08-13 17:51:11.460-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=4.1
+2020-08-13 17:51:11.460-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Adobe CEF Helper", cpuPercent=2.1
+2020-08-13 17:51:11.460-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Adobe CEF Helper", cpuPercent=1.7
+2020-08-13 17:51:11.460-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="ContainerMetadataExtractor", cpuPercent=1.0
+2020-08-13 17:51:11.460-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="tccd", cpuPercent=0.9
+2020-08-13 17:51:11.461-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Adobe CEF Helper", cpuPercent=0.7
+2020-08-13 17:51:11.461-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="tccd", cpuPercent=0.7
+2020-08-13 17:51:11.461-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="launchservicesd", cpuPercent=0.5
+2020-08-13 17:51:11.461-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="bird", cpuPercent=0.5
+2020-08-13 17:51:11.461-0700 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="launchd", cpuPercent=0.3
+2020-08-13 17:51:11.736-0700 [BROWSERLOCKOSX] [INFO] Resuming processes: mail, preview, coreautha, osduihelper, usernotificationcenter, spotify, notification center, nowplayingtouchui, adobe desktop service, finder, stocks (notification center), universalaccessauthwarn, calendar, spotlight, calendaragent, dock, creative cloud, core sync, weather (notification center), softwareupdatenotificationmanager, system preferences, accountprofileremoteviewservice (system preferences), powerchime, messages, wi-fi, photos, notification center, adobeipcbroker, nbagent, 
+2020-08-13 17:51:11.737-0700 [BROWSERLOCKOSX] [INFO] Show dock
+2020-08-13 17:51:11.773-0700 [BROWSERLOCKOSX] [INFO] Stopping input handler
+2020-08-13 17:51:11.774-0700 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? 1
+2020-08-13 17:51:11.774-0700 [BROWSERLOCKOSX] [INFO] Setting 100 HotKeys to enabled-status: 1
+2020-08-13 17:51:12.243-0700 [BROWSERLOCKOSX] [INFO] Notification center enabled
+2020-08-13 17:51:12.243-0700 [BROWSERLOCKOSX] [INFO] Releasing display: displayId=69733632
+2020-08-13 17:51:12.243-0700 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2020-08-13 17:51:12.415-0700 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2020-08-13 17:51:16.070-0700 [BROWSERLOCKOSX] [INFO] Resuming processes: mail, preview, coreautha, osduihelper, usernotificationcenter, spotify, notification center, nowplayingtouchui, adobe desktop service, finder, stocks (notification center), universalaccessauthwarn, calendar, spotlight, calendaragent, dock, creative cloud, core sync, weather (notification center), softwareupdatenotificationmanager, system preferences, accountprofileremoteviewservice (system preferences), powerchime, messages, wi-fi, photos, notification center, adobeipcbroker, nbagent, 
+2020-08-13 17:51:16.070-0700 [BROWSERLOCKOSX] [INFO] Show dock
+2020-08-13 17:51:16.071-0700 [BROWSERLOCKOSX] [INFO] Stopping input handler
+2020-08-13 17:51:16.072-0700 [BROWSERLOCKOSX] [INFO] Releasing display: displayId=69733632
+2020-08-13 17:51:16.072-0700 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2020-08-13 17:51:16.076-0700 [BROWSERLOCKOSX] [INFO] Error stopping shutdown file monitor:
+java.lang.IllegalStateException: Monitor is not running
+	at org.apache.commons.io.monitor.FileAlterationMonitor.stop(FileAlterationMonitor.java:163)
+	at org.apache.commons.io.monitor.FileAlterationMonitor.stop(FileAlterationMonitor.java:150)
+	at j.b(ShutdownFileListener.java:86)
+	at com.vue.browserlock.osx.a.d(OSXBrowserLock.java:96)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(Unknown Source)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+2020-08-13 17:51:16.359-0700 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=0 
